@@ -1,0 +1,11 @@
+# This is the program for Dictionary 
+
+dictionary = {"programming" : "Set of code rules", "milad" : "A boy who loves Sanaz"}
+
+while True:
+
+	search = input("enter the word: ")
+	if search in dictionary: 
+		print("{} - {}".format(search, dictionary[search]))
+	else:
+		print("The world is not in the database")
