@@ -6,6 +6,6 @@ while True:
 
 	search = input("enter the word: ")
 	if search in dictionary: 
-		print("{} - {}".format(search, dictionary[search]))
+		print("{} - {}".format(search, dictionary[search])) #or print(f"{search} - {dictionary[search]}")
 	else:
 		print("The world is not in the database")
